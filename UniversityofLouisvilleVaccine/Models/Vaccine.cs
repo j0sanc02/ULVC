@@ -47,7 +47,7 @@ namespace UniversityofLouisvilleVaccine.Models
         public int numofDoses { get; set; }
 
         [Required]
-        [Display(Name = "Sales Price")]
+        [Display(Name = "Cost")]
         public int salesPrice { get; set; }
 
     }
