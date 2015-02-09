@@ -158,22 +158,14 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\GrantsController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ScheduleController.cs" />
-    <Compile Include="Controllers\UserController.cs" />
-    <Compile Include="Controllers\VaccineController.cs" />
+    <Compile Include="App_Start\Controllers\AccountController.cs" />
+    <Compile Include="App_Start\Controllers\GrantsController.cs" />
+    <Compile Include="App_Start\Controllers\HomeController.cs" />
+    <Compile Include="App_Start\Controllers\ScheduleController.cs" />
+    <Compile Include="App_Start\Controllers\UserController.cs" />
+    <Compile Include="App_Start\Controllers\VaccineController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201501311510450_InitialCreate.cs" />
-    <Compile Include="Migrations\201501311510450_InitialCreate.Designer.cs">
-      <DependentUpon>201501311510450_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201501311627097_New.cs" />
-    <Compile Include="Migrations\201501311627097_New.Designer.cs">
-      <DependentUpon>201501311627097_New.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -192,6 +184,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\jasonsanchez819.com - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -247,14 +240,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201501311510450_InitialCreate.resx">
-      <DependentUpon>201501311510450_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201501311627097_New.resx">
-      <DependentUpon>201501311627097_New.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
