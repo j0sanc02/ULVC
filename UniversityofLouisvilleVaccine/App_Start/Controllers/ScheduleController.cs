@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace UniversityofLouisvilleVaccine.Controllers
 {
+    [Authorize]
     public class ScheduleController : Controller
     {
         //

@@ -10,6 +10,7 @@ using UniversityofLouisvilleVaccine.Models;
 
 namespace UniversityofLouisvilleVaccine.Controllers
 {
+    [Authorize]
     public class VaccineController : Controller
     {
         private VaccineDBContext db = new VaccineDBContext();
