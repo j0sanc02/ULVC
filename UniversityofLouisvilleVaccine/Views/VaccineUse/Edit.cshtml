@@ -1,0 +1,75 @@
+﻿@model UniversityofLouisvilleVaccine.Models.VaccineUse
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>VaccineUse</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.VaccineUseId)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.vaccineID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.vaccineID)
+                @Html.ValidationMessageFor(model => model.vaccineID)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.lotNumber, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.lotNumber)
+                @Html.ValidationMessageFor(model => model.lotNumber)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.patientID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.patientID)
+                @Html.ValidationMessageFor(model => model.patientID)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.injectionSite, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.injectionSite)
+                @Html.ValidationMessageFor(model => model.injectionSite)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.quantity, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.quantity)
+                @Html.ValidationMessageFor(model => model.quantity)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
