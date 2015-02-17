@@ -8,9 +8,8 @@ using System.Web;
 using System.Web.Mvc;
 using UniversityofLouisvilleVaccine.Models;
 
-namespace UniversityofLouisvilleVaccine.Controllers
+namespace UniversityofLouisvilleVaccine.App_Start.Controllers
 {
-    [Authorize]
     public class VendorController : Controller
     {
         private VendorDBContext db = new VendorDBContext();

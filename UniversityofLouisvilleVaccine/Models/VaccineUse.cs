@@ -9,33 +9,23 @@ namespace UniversityofLouisvilleVaccine.Models
 {
     public class VaccineUse
     {
-        [Required]
-        [Display(Name = "Vaccine Use ID")]
-        public string vaccineUseID { get; set; }
-
-        [Required]
-        [Display(Name = "Vaccine ID")]
-        public string vaccineID { get; set; }
-
-        [Required]
-        [Display(Name = "Patient ID")]
-        public string patientID { get; set; }
-
-        [Required]
-        [Display(Name = "Injection Site")]
-        public string injectionSite { get; set; }
-
-        [Required]
-        [Display(Name = "Quantity")]
-        public int quantity { get; set; }
+        [Key]
+        public string VaccineUseId { get; set; }
         
+        public string vaccineID { get; set; }
+        
+        public string lotNumber { get; set; }
+        
+        public string patientID { get; set; }
+              
+        public string injectionSite { get; set; }
+        
+        public int quantity { get; set; }
+
     }
 
-    public class VaccineUseDBContext : DbContext
+    public class VaccineUseDBContext:DbContext
     {
-        public DbSet<Vaccine> VaccineUses { get; set; }
+        public DbSet<VaccineUse> VaccineUses { get; set; }
     }
-
-
-
 }
