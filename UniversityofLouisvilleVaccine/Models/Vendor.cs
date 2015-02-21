@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
@@ -8,6 +9,7 @@ namespace UniversityofLouisvilleVaccine.Models
 {
     public class Vendor
     {
+        [Key]
         public string vendorID { get; set; }
         public string vendorName { get; set; }
         public string vendorPhone { get; set; }

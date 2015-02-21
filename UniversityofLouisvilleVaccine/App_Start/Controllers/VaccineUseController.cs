@@ -48,10 +48,44 @@ namespace UniversityofLouisvilleVaccine.App_Start.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include="VaccineUseId,vaccineID,lotNumber,patientID,injectionSite,quantity")] VaccineUse vaccineuse)
         {
+
+
             if (ModelState.IsValid)
             {
                 db.VaccineUses.Add(vaccineuse);
                 db.SaveChanges();
+
+                    //Decrease amount from quantity
+                    VaccineDBContext VaccineDB = new VaccineDBContext();
+                    Vaccine Vac = new Vaccine();
+
+                    string vaccineID = vaccineuse.vaccineID;
+                    string lot = vaccineuse.lotNumber;
+                    int decreaseby = vaccineuse.quantity;
+                    
+                    var query =
+                        from VDB in VaccineDB.Vaccines
+                        where VDB.lotNumber == lot && VDB.vaccineID == vaccineID
+                        select VDB;
+
+                    foreach (Vaccine vdb in query)
+                    {
+                        int currentvaccinequantity = vdb.numofDoses;
+                        int newvaccinetotal = currentvaccinequantity - decreaseby;                    
+                        vdb.numofDoses = newvaccinetotal;
+                    }
+
+                    try
+                    {
+                        VaccineDB.SaveChanges();
+                        Console.WriteLine("Vaccine Amount Updated!");
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e);
+                    }
+
+
                 return RedirectToAction("Index");
             }
 
@@ -88,6 +122,8 @@ namespace UniversityofLouisvilleVaccine.App_Start.Controllers
             }
             return View(vaccineuse);
         }
+
+        
 
         // GET: /VaccineUse/Delete/5
         public ActionResult Delete(string id)
