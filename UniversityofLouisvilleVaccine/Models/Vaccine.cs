@@ -7,7 +7,7 @@ namespace UniversityofLouisvilleVaccine.Models
     public class Vaccine
     {
         [Required]
-        [RegularExpression(@"^[A-Z]+[a-zA-Z''-'\s]*$")]
+        [RegularExpression(@"^\d+$", ErrorMessage = "Please enter proper contact details.")]
         [Display(Name = "Vaccine ID")]
         public string vaccineID { get; set; }
 
@@ -19,7 +19,7 @@ namespace UniversityofLouisvilleVaccine.Models
         [Required]
         [Display(Name = "Date Received")]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
         public DateTime dateReceived { get; set; }
 
         [Required]
@@ -49,6 +49,12 @@ namespace UniversityofLouisvilleVaccine.Models
         [Required]
         [Display(Name = "Cost")]
         public int salesPrice { get; set; }
+
+        [Required]
+        [Display(Name = "Expiration Date")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime expDate { get; set; }
 
     }
 

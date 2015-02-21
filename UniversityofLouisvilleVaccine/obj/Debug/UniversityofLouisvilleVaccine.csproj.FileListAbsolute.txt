@@ -221,3 +221,5 @@ C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisv
 C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.csprojResolveAssemblyReference.cache
 C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.dll
 C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.pdb
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.Migrations.AddedExpirationDate.resources
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.csproj.GenerateResource.Cache

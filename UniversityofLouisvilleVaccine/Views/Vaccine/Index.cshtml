@@ -55,6 +55,10 @@
         <th>
             @Html.DisplayNameFor(model => model.salesPrice)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.expDate)
+        </th>
+
         <th></th>
     </tr>
 
@@ -86,6 +90,9 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.salesPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.expDate)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.vaccineID }) |
