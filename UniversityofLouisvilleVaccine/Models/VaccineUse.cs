@@ -28,12 +28,21 @@ namespace UniversityofLouisvilleVaccine.Models
         public string patientID { get; set; }
 
         [Required]
-        [Display(Name = "Injection Site")]
-        public string injectionSite { get; set; }
+        [Display(Name = "Left Arm")]
+        public bool LinjectionSite { get; set; }
+
+        [Display(Name = "Right Arm")]
+        public bool RinjectionSite { get; set; }
 
         [Required]
         [Display(Name = "Quantity")]
         public int quantity { get; set; }
+
+        [Required]
+        [Display(Name = "Date")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime VaccineUseDate { get; set; }
 
     }
 

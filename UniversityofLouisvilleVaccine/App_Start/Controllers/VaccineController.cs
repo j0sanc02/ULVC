@@ -101,7 +101,7 @@ namespace UniversityofLouisvilleVaccine.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include="vaccineID,vaccineName,dateReceived,CPT,ICD9Code,NDC,leadTime,lotNumber,numofDoses,salesPrice,expDate")] Vaccine vaccine)
+        public ActionResult Edit([Bind(Include="ID,vaccineID,vaccineName,dateReceived,CPT,ICD9Code,NDC,leadTime,lotNumber,numofDoses,salesPrice,expDate")] Vaccine vaccine)
         {
             if (ModelState.IsValid)
             {

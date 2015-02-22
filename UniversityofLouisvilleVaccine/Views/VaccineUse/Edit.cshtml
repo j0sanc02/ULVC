@@ -43,10 +43,18 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.injectionSite, new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.LinjectionSite, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.injectionSite)
-                @Html.ValidationMessageFor(model => model.injectionSite)
+                @Html.EditorFor(model => model.LinjectionSite)
+                @Html.ValidationMessageFor(model => model.LinjectionSite)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.RinjectionSite, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.RinjectionSite)
+                @Html.ValidationMessageFor(model => model.RinjectionSite)
             </div>
         </div>
 
@@ -55,6 +63,14 @@
             <div class="col-md-10">
                 @Html.EditorFor(model => model.quantity)
                 @Html.ValidationMessageFor(model => model.quantity)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.VaccineUseDate, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.VaccineUseDate)
+                @Html.ValidationMessageFor(model => model.VaccineUseDate)
             </div>
         </div>
 

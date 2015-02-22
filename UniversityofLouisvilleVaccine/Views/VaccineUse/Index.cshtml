@@ -22,10 +22,16 @@
             @Html.DisplayNameFor(model => model.patientID)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.injectionSite)
+            @Html.DisplayNameFor(model => model.LinjectionSite)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RinjectionSite)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VaccineUseDate)
         </th>
         <th></th>
     </tr>
@@ -42,10 +48,16 @@
             @Html.DisplayFor(modelItem => item.patientID)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.injectionSite)
+            @Html.DisplayFor(modelItem => item.LinjectionSite)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RinjectionSite)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VaccineUseDate)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.VaccineUseId }) |
