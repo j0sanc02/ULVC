@@ -6,6 +6,7 @@ namespace UniversityofLouisvilleVaccine.Models
 {
     public class Vaccine
     {
+
         [Required]
         [RegularExpression(@"^\d+$", ErrorMessage = "Please enter proper contact details.")]
         [Display(Name = "Vaccine ID")]
