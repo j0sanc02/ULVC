@@ -171,14 +171,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201502212038452_Added Expiration Date.cs" />
-    <Compile Include="Migrations\201502212038452_Added Expiration Date.Designer.cs">
-      <DependentUpon>201502212038452_Added Expiration Date.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201502220134091_key.cs" />
-    <Compile Include="Migrations\201502220134091_key.Designer.cs">
-      <DependentUpon>201502220134091_key.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -315,14 +307,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201502212038452_Added Expiration Date.resx">
-      <DependentUpon>201502212038452_Added Expiration Date.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201502220134091_key.resx">
-      <DependentUpon>201502220134091_key.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

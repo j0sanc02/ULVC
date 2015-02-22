@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 
 namespace UniversityofLouisvilleVaccine.Models
@@ -7,6 +8,10 @@ namespace UniversityofLouisvilleVaccine.Models
     public class Vaccine
     {
 
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int ID { get; set; }
+        
         [Required]
         [RegularExpression(@"^\d+$", ErrorMessage = "Please enter proper contact details.")]
         [Display(Name = "Vaccine ID")]
@@ -20,7 +25,7 @@ namespace UniversityofLouisvilleVaccine.Models
         [Required]
         [Display(Name = "Date Received")]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
         public DateTime dateReceived { get; set; }
 
         [Required]
@@ -54,7 +59,7 @@ namespace UniversityofLouisvilleVaccine.Models
         [Required]
         [Display(Name = "Expiration Date")]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
         public DateTime expDate { get; set; }
 
     }

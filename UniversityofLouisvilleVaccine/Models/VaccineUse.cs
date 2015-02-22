@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
@@ -10,9 +11,9 @@ namespace UniversityofLouisvilleVaccine.Models
     public class VaccineUse
     {
         [Key]
-        [Required]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Display(Name = "Vaccine Use ID")]
-        public string VaccineUseId { get; set; }
+        public int VaccineUseId { get; set; }
 
         [Required]
         [Display(Name = "Vaccine ID")]
