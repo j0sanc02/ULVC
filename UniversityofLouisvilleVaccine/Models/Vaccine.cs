@@ -64,9 +64,6 @@ namespace UniversityofLouisvilleVaccine.Models
 
     }
 
-    public class VaccineDBContext : DbContext
-    {
-        public DbSet<Vaccine> Vaccines { get; set; }
-    }
+
 
 }

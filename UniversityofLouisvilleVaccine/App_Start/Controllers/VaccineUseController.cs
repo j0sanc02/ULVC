@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using UniversityofLouisvilleVaccine.DataContexts;
 using UniversityofLouisvilleVaccine.Models;
 
 namespace UniversityofLouisvilleVaccine.App_Start.Controllers

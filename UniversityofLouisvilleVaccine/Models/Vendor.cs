@@ -40,8 +40,4 @@ namespace UniversityofLouisvilleVaccine.Models
 
     }
 
-    public class VendorDBContext: DbContext
-    {
-        public DbSet<Vendor> Vendors { get; set; }
-    }
 }
