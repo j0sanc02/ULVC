@@ -328,7 +328,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\Images\prettyPhoto\" />
-    <Folder Include="Migrations\" />
     <Folder Include="Views\Index\css\" />
     <Folder Include="Views\Index\fonts\" />
     <Folder Include="Views\Index\images\" />
