@@ -180,8 +180,22 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\favicon.png" />
+    <Content Include="Content\Images\slider\bg2.jpg" />
     <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\main-feature.png" />
     <Content Include="Content\Images\partners\blessingslogo.png" />
+    <Content Include="Content\Images\slider\bg1.jpg" />
+    <Content Include="Content\Images\slider\carousel1.jpg" />
+    <Content Include="Content\Images\team\ramirez.jpg" />
+    <Content Include="Content\Images\team\carrico.jpg" />
+    <Content Include="Content\Images\team\christensen.jpg" />
+    <Content Include="Content\Images\team\peyrani.jpg" />
+    <Content Include="Content\Images\team\05.jpg" />
+    <Content Include="Content\Images\team\06.jpg" />
+    <Content Include="Content\Images\team\07.jpg" />
+    <Content Include="Content\Images\team\08.jpg" />
+    <Content Include="Content\Images\wwb-logo.jpg" />
     <Content Include="Content\VaccineStyle.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -189,6 +203,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\patientForm.pdf" />
     <None Include="Properties\PublishProfiles\jasonsanchez819.com - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -213,7 +228,6 @@
     <Content Include="Content\Images\ico\apple-touch-icon-57-precomposed.png" />
     <Content Include="Content\Images\ico\apple-touch-icon-72-precomposed.png" />
     <Content Include="Content\Images\ico\favicon.ico" />
-    <Content Include="Content\Images\main-feature.png" />
     <Content Include="Content\Images\portfolio\01.jpg" />
     <Content Include="Content\Images\portfolio\02.jpg" />
     <Content Include="Content\Images\portfolio\03.jpg" />
@@ -223,12 +237,6 @@
     <Content Include="Content\Images\portfolio\07.jpg" />
     <Content Include="Content\Images\portfolio\08.jpg" />
     <Content Include="Content\Images\portfolio\full.jpg" />
-    <Content Include="Content\Images\slider\bg1.jpg" />
-    <Content Include="Content\Images\slider\bg2.jpg" />
-    <Content Include="Content\Images\team\01.jpg" />
-    <Content Include="Content\Images\team\02.jpg" />
-    <Content Include="Content\Images\team\03.jpg" />
-    <Content Include="Content\Images\team\04.jpg" />
     <Content Include="Content\Images\testimonial\01.jpg" />
     <Content Include="Content\Images\testimonial\bg.jpg" />
     <Content Include="Content\Images\work-process\bg.jpg" />
@@ -283,6 +291,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Images\hero\" />
     <Folder Include="Content\Images\prettyPhoto\" />
     <Folder Include="Views\Index\css\" />
     <Folder Include="Views\Index\fonts\" />

@@ -589,15 +589,15 @@ ul.nostyle i {
   margin: -15px -15px 0 -15px;
 }
 #meet-team .team-member .team-info {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   border-bottom: 1px solid #dbdbdb;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 #meet-team .team-member:hover {
-  border-color: #45aed6;
+
 }
 #meet-team .team-member:hover .social-icons > li > a {
-  background: #45aed6;
+
 }
 #meet-team .social-icons {
   list-style: none;
@@ -934,4 +934,8 @@ ul.nostyle i {
 .form-control {
   box-shadow: none;
   -webkit-box-shadow: none;
+}
+#researchImage {
+    max-width: 314px;
+    max-height: 451px;
 }
