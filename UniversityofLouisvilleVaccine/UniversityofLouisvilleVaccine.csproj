@@ -168,6 +168,12 @@
     <Compile Include="App_Start\Controllers\ScheduleController.cs" />
     <Compile Include="App_Start\Controllers\UserController.cs" />
     <Compile Include="App_Start\Controllers\VaccineController.cs" />
+    <Compile Include="DataContexts\Identity.cs" />
+    <Compile Include="DataContexts\IdentityMigrations\201502230351497_Initial Create.cs" />
+    <Compile Include="DataContexts\IdentityMigrations\201502230351497_Initial Create.Designer.cs">
+      <DependentUpon>201502230351497_Initial Create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\IdentityMigrations\Configuration.cs" />
     <Compile Include="DataContexts\Vaccine.cs" />
     <Compile Include="DataContexts\VaccineMigrations\201502230312066_Initial Create.cs" />
     <Compile Include="DataContexts\VaccineMigrations\201502230312066_Initial Create.Designer.cs">
@@ -217,6 +223,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\jasonsanchez819.com - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\jasonsanchez819.com - WebDeploy2.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -334,6 +341,9 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DataContexts\IdentityMigrations\201502230351497_Initial Create.resx">
+      <DependentUpon>201502230351497_Initial Create.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DataContexts\VaccineMigrations\201502230312066_Initial Create.resx">
       <DependentUpon>201502230312066_Initial Create.cs</DependentUpon>
     </EmbeddedResource>

@@ -11,6 +11,15 @@
     <h4>Vaccine</h4>
     <hr />
     <dl class="dl-horizontal">
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.vaccineID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vaccineID)
+        </dd>
+
         <dt>
             @Html.DisplayNameFor(model => model.vaccineName)
         </dt>
@@ -81,6 +90,14 @@
 
         <dd>
             @Html.DisplayFor(model => model.salesPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.expDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.expDate)
         </dd>
 
     </dl>

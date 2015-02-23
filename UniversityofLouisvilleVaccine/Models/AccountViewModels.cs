@@ -15,10 +15,7 @@ namespace UniversityofLouisvilleVaccine.Models
 
     public class ManageUserViewModel
     {
- 
-        [Display(Name = "Role")]
-        public string Role { get; set; }
-       
+        
         [DataType(DataType.Password)]
         [Display(Name = "Current password")]
         public string OldPassword { get; set; }

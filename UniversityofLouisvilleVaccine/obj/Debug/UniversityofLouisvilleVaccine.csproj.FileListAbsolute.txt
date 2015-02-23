@@ -226,3 +226,4 @@ C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.DataContexts.VendorMigrations.InitialCreate.resources
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.DataContexts.VaccineUseMigrations.InitialCreate.resources
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.DataContexts.VaccineMigrations.InitialCreate.resources
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.DataContexts.IdentityMigrations.InitialCreate.resources

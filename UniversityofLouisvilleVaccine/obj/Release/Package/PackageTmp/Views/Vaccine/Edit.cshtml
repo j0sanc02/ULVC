@@ -18,6 +18,13 @@
         @Html.HiddenFor(model => model.vaccineID)
 
         <div class="form-group">
+            @Html.LabelFor(model => model.vaccineID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.vaccineID)
+                @Html.ValidationMessageFor(model => model.vaccineID)
+            </div>
+        </div>
+        <div class="form-group">
             @Html.LabelFor(model => model.vaccineName, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.vaccineName)
@@ -86,6 +93,14 @@
             <div class="col-md-10">
                 @Html.EditorFor(model => model.salesPrice)
                 @Html.ValidationMessageFor(model => model.salesPrice)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.expDate, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.expDate)
+                @Html.ValidationMessageFor(model => model.expDate)
             </div>
         </div>
 
