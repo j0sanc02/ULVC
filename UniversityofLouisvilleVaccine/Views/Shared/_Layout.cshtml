@@ -10,8 +10,12 @@
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="row" style="background-color:white">
-            <img src="~/Content/Images/UofL.jpg" alt="Banner Image" style="float:right; height:50px" />
+        <div class="row" style="background-color:white; align-content:center">
+            <div class="container">
+                <img src="~/Content/Images/logo.png" alt="Banner Image" style="max-height:50px; float:right"/>
+
+            </div>
+
         </div>
 
         <div class="container">
@@ -22,17 +26,27 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("UofL", "Index", "Home", null, new { @class = "navbar-brand" })
+                @Html.ActionLink("UofL", "Index", "Index", null, new { @class = "navbar-brand" })
             </div>
             
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Vaccine", "Index", "Vaccine")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Vaccine<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Vaccine Inventory", "Index", "Vaccine")</li>
+                            <li>@Html.ActionLink("Use", "Index", "VaccineUse")</li>
+                            <li>@Html.ActionLink("Vendor Info", "Index", "Vendor")</li>
+                        </ul>
+                    </li>
+                        <li>@Html.ActionLink("Scheduling", "Index", "Schedule")</li>
+                        <li>@Html.ActionLink("Grants", "Index", "Grants")</li>
+                        <li>@Html.ActionLink("Users", "Index", "User")</li>
+
+                        @Html.Partial("_LoginPartial")
                 </ul>
-                @Html.Partial("_LoginPartial")
+
             </div>
         </div>
     </div>

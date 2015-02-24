@@ -1,13 +1,19 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 
 namespace UniversityofLouisvilleVaccine.Models
 {
     public class Vaccine
     {
+
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int ID { get; set; }
+        
         [Required]
-        [RegularExpression(@"^[A-Z]+[a-zA-Z''-'\s]*$")]
+        [RegularExpression(@"^\d+$", ErrorMessage = "Please enter proper contact details.")]
         [Display(Name = "Vaccine ID")]
         public string vaccineID { get; set; }
 
@@ -19,7 +25,7 @@ namespace UniversityofLouisvilleVaccine.Models
         [Required]
         [Display(Name = "Date Received")]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
         public DateTime dateReceived { get; set; }
 
         [Required]
@@ -47,14 +53,17 @@ namespace UniversityofLouisvilleVaccine.Models
         public int numofDoses { get; set; }
 
         [Required]
-        [Display(Name = "Sales Price")]
+        [Display(Name = "Cost")]
         public int salesPrice { get; set; }
 
+        [Required]
+        [Display(Name = "Expiration Date")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime expDate { get; set; }
+
     }
 
-    public class VaccineDBContext : DbContext
-    {
-        public DbSet<Vaccine> Vaccines { get; set; }
-    }
+
 
 }

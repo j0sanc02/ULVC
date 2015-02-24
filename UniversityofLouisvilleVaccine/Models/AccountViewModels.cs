@@ -15,10 +15,7 @@ namespace UniversityofLouisvilleVaccine.Models
 
     public class ManageUserViewModel
     {
- 
-        [Display(Name = "Role")]
-        public string Role { get; set; }
-       
+        
         [DataType(DataType.Password)]
         [Display(Name = "Current password")]
         public string OldPassword { get; set; }
@@ -66,10 +63,10 @@ namespace UniversityofLouisvilleVaccine.Models
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
 
-        [Required]
-        [Display(Name = "Role")]
-        public string Role { get; set; }
-        //public int id { get; set; }
+        //[Required]
+        //[Display(Name = "Role")]
+        //public string Role { get; set; }
+        ////public int id { get; set; }
         
  
 

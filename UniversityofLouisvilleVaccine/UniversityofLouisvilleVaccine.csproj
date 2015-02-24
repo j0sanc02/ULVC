@@ -155,33 +155,66 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\Controllers\IndexController.cs" />
+    <Compile Include="App_Start\Controllers\LandingController.cs" />
+    <Compile Include="App_Start\Controllers\VaccineUseController.cs" />
+    <Compile Include="App_Start\Controllers\VendorController.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\VaccineController.cs" />
+    <Compile Include="App_Start\Controllers\AccountController.cs" />
+    <Compile Include="App_Start\Controllers\GrantsController.cs" />
+    <Compile Include="App_Start\Controllers\HomeController.cs" />
+    <Compile Include="App_Start\Controllers\ScheduleController.cs" />
+    <Compile Include="App_Start\Controllers\UserController.cs" />
+    <Compile Include="App_Start\Controllers\VaccineController.cs" />
+    <Compile Include="DataContexts\Identity.cs" />
+    <Compile Include="DataContexts\IdentityMigrations\201502230351497_Initial Create.cs" />
+    <Compile Include="DataContexts\IdentityMigrations\201502230351497_Initial Create.Designer.cs">
+      <DependentUpon>201502230351497_Initial Create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\IdentityMigrations\Configuration.cs" />
+    <Compile Include="DataContexts\Vaccine.cs" />
+    <Compile Include="DataContexts\VaccineMigrations\201502230312066_Initial Create.cs" />
+    <Compile Include="DataContexts\VaccineMigrations\201502230312066_Initial Create.Designer.cs">
+      <DependentUpon>201502230312066_Initial Create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\VaccineMigrations\Configuration.cs" />
+    <Compile Include="DataContexts\VaccineNotification.cs" />
+    <Compile Include="DataContexts\VaccineNotificationMigrations\201502222217005_Initial Create.cs" />
+    <Compile Include="DataContexts\VaccineNotificationMigrations\201502222217005_Initial Create.Designer.cs">
+      <DependentUpon>201502222217005_Initial Create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\VaccineNotificationMigrations\Configuration.cs" />
+    <Compile Include="DataContexts\VaccineUse.cs" />
+    <Compile Include="DataContexts\VaccineUseMigrations\201502230248440_Initial Create.cs" />
+    <Compile Include="DataContexts\VaccineUseMigrations\201502230248440_Initial Create.Designer.cs">
+      <DependentUpon>201502230248440_Initial Create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\VaccineUseMigrations\Configuration.cs" />
+    <Compile Include="DataContexts\Vendor.cs" />
+    <Compile Include="DataContexts\VendorMigrations\201502230239179_Initial Create.cs" />
+    <Compile Include="DataContexts\VendorMigrations\201502230239179_Initial Create.Designer.cs">
+      <DependentUpon>201502230239179_Initial Create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\VendorMigrations\Configuration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201501311510450_InitialCreate.cs" />
-    <Compile Include="Migrations\201501311510450_InitialCreate.Designer.cs">
-      <DependentUpon>201501311510450_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201501311627097_New.cs" />
-    <Compile Include="Migrations\201501311627097_New.Designer.cs">
-      <DependentUpon>201501311627097_New.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Vaccine.cs" />
+    <Compile Include="Models\VaccineNotification.cs" />
+    <Compile Include="Models\VaccineUse.cs" />
+    <Compile Include="Models\Vendor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\partners\blessingslogo.png" />
     <Content Include="Content\VaccineStyle.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -189,6 +222,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\jasonsanchez819.com - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\jasonsanchez819.com - WebDeploy2.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -201,6 +236,48 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Content\Images\animated-number\bg.jpg" />
+    <Content Include="Content\Images\blog\01.jpg" />
+    <Content Include="Content\Images\blog\02.jpg" />
+    <Content Include="Content\Images\blog\03.jpg" />
+    <Content Include="Content\Images\cta2\cta2-bg.jpg" />
+    <Content Include="Content\Images\cta2\cta2-img.png" />
+    <Content Include="Content\Images\ico\apple-touch-icon-114-precomposed.png" />
+    <Content Include="Content\Images\ico\apple-touch-icon-144-precomposed.png" />
+    <Content Include="Content\Images\ico\apple-touch-icon-57-precomposed.png" />
+    <Content Include="Content\Images\ico\apple-touch-icon-72-precomposed.png" />
+    <Content Include="Content\Images\ico\favicon.ico" />
+    <Content Include="Content\Images\main-feature.png" />
+    <Content Include="Content\Images\portfolio\01.jpg" />
+    <Content Include="Content\Images\portfolio\02.jpg" />
+    <Content Include="Content\Images\portfolio\03.jpg" />
+    <Content Include="Content\Images\portfolio\04.jpg" />
+    <Content Include="Content\Images\portfolio\05.jpg" />
+    <Content Include="Content\Images\portfolio\06.jpg" />
+    <Content Include="Content\Images\portfolio\07.jpg" />
+    <Content Include="Content\Images\portfolio\08.jpg" />
+    <Content Include="Content\Images\portfolio\full.jpg" />
+    <Content Include="Content\Images\slider\bg1.jpg" />
+    <Content Include="Content\Images\slider\bg2.jpg" />
+    <Content Include="Content\Images\team\01.jpg" />
+    <Content Include="Content\Images\team\02.jpg" />
+    <Content Include="Content\Images\team\03.jpg" />
+    <Content Include="Content\Images\team\04.jpg" />
+    <Content Include="Content\Images\testimonial\01.jpg" />
+    <Content Include="Content\Images\testimonial\bg.jpg" />
+    <Content Include="Content\Images\work-process\bg.jpg" />
+    <Content Include="Views\Index\js\bootstrap.min.js" />
+    <Content Include="Scripts\html5shiv.js" />
+    <Content Include="Scripts\jquery.inview.min.js" />
+    <Content Include="Scripts\jquery.isotope.min.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jquery.prettyPhoto.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\mousescroll.js" />
+    <Content Include="Scripts\owl.carousel.min.js" />
+    <Content Include="Scripts\landing-respond.min.js" />
+    <Content Include="Scripts\smoothscroll.js" />
+    <Content Include="Scripts\wow.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -231,9 +308,29 @@
     <Content Include="Views\Vaccine\Delete.cshtml" />
     <Content Include="Views\Vaccine\Details.cshtml" />
     <Content Include="Views\Vaccine\Edit.cshtml" />
+    <Content Include="Views\Schedule\Index.cshtml" />
+    <Content Include="Views\Grants\Index.cshtml" />
+    <Content Include="Views\User\Index.cshtml" />
+    <Content Include="Views\Index\Index.cshtml" />
+    <Content Include="Views\index.cshtml" />
+    <Content Include="Views\Landing\Landing.cshtml" />
+    <Content Include="Views\VaccineUse\Create.cshtml" />
+    <Content Include="Views\VaccineUse\Delete.cshtml" />
+    <Content Include="Views\VaccineUse\Details.cshtml" />
+    <Content Include="Views\VaccineUse\Edit.cshtml" />
+    <Content Include="Views\VaccineUse\Index.cshtml" />
+    <Content Include="Views\Vendor\Create.cshtml" />
+    <Content Include="Views\Vendor\Delete.cshtml" />
+    <Content Include="Views\Vendor\Details.cshtml" />
+    <Content Include="Views\Vendor\Edit.cshtml" />
+    <Content Include="Views\Vendor\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Images\prettyPhoto\" />
+    <Folder Include="Views\Index\css\" />
+    <Folder Include="Views\Index\fonts\" />
+    <Folder Include="Views\Index\images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -243,11 +340,20 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201501311510450_InitialCreate.resx">
-      <DependentUpon>201501311510450_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="DataContexts\IdentityMigrations\201502230351497_Initial Create.resx">
+      <DependentUpon>201502230351497_Initial Create.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201501311627097_New.resx">
-      <DependentUpon>201501311627097_New.cs</DependentUpon>
+    <EmbeddedResource Include="DataContexts\VaccineMigrations\201502230312066_Initial Create.resx">
+      <DependentUpon>201502230312066_Initial Create.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\VaccineNotificationMigrations\201502222217005_Initial Create.resx">
+      <DependentUpon>201502222217005_Initial Create.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\VaccineUseMigrations\201502230248440_Initial Create.resx">
+      <DependentUpon>201502230248440_Initial Create.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\VendorMigrations\201502230239179_Initial Create.resx">
+      <DependentUpon>201502230239179_Initial Create.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

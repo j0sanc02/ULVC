@@ -56,6 +56,64 @@ c:\users\jpapp_000\documents\visual studio 2013\Projects\UniversityofLouisvilleV
 C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\UniversityofLouisvilleVaccine\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.Migrations.InitialCreate.resources
 C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\UniversityofLouisvilleVaccine\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.csproj.GenerateResource.Cache
 C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\UniversityofLouisvilleVaccine\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.Migrations.New.resources
+<<<<<<< HEAD
+=======
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.dll.config
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.pdb
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Antlr3.Runtime.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\EntityFramework.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\EntityFramework.SqlServer.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Newtonsoft.Json.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Owin.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Helpers.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Mvc.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Optimization.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Razor.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.WebPages.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.WebPages.Razor.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\WebGrease.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Helpers.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Mvc.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Optimization.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Razor.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.WebPages.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.WebPages.Razor.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Newtonsoft.Json.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Antlr3.Runtime.pdb
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\EntityFramework.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\EntityFramework.SqlServer.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.csprojResolveAssemblyReference.cache
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.dll
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.pdb
+>>>>>>> origin/master
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.dll.config
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.dll
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.pdb
@@ -109,8 +167,74 @@ C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.Migrations.InitialCreate.resources
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.Migrations.New.resources
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.csproj.GenerateResource.Cache
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.dll
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.pdb
+=======
+C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.dll
+C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.pdb
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.dll.config
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.pdb
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Antlr3.Runtime.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\EntityFramework.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\EntityFramework.SqlServer.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Newtonsoft.Json.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Owin.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Helpers.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Mvc.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Optimization.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Razor.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.WebPages.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.WebPages.Razor.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\WebGrease.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Helpers.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Mvc.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Optimization.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.Razor.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.WebPages.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\System.Web.WebPages.Razor.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Newtonsoft.Json.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Antlr3.Runtime.pdb
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\EntityFramework.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\EntityFramework.SqlServer.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.csprojResolveAssemblyReference.cache
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.dll
+C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.pdb
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.csproj.GenerateResource.Cache
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.DataContexts.VaccineNotificationMigrations.InitialCreate.resources
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.DataContexts.VendorMigrations.InitialCreate.resources
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.DataContexts.VaccineUseMigrations.InitialCreate.resources
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.DataContexts.VaccineMigrations.InitialCreate.resources
+C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.DataContexts.IdentityMigrations.InitialCreate.resources
+>>>>>>> origin/master
