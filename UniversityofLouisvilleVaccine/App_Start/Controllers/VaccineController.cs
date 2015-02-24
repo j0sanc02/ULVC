@@ -46,7 +46,7 @@ namespace UniversityofLouisvilleVaccine.Controllers
         }
 
         // GET: /Vaccine/Details/5
-        public ActionResult Details(string id)
+        public ActionResult Details(int id)
         {
             if (id == null)
             {
@@ -84,7 +84,7 @@ namespace UniversityofLouisvilleVaccine.Controllers
         }
 
         // GET: /Vaccine/Edit/5
-        public ActionResult Edit(string id)
+        public ActionResult Edit(int id)
         {
             if (id == null)
             {
@@ -115,7 +115,7 @@ namespace UniversityofLouisvilleVaccine.Controllers
         }
 
         // GET: /Vaccine/Delete/5
-        public ActionResult Delete(string id)
+        public ActionResult Delete(int id)
         {
             if (id == null)
             {
@@ -132,7 +132,7 @@ namespace UniversityofLouisvilleVaccine.Controllers
         // POST: /Vaccine/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(string id)
+        public ActionResult DeleteConfirmed(int id)
         {
             Vaccine vaccine = db.Vaccines.Find(id);
             db.Vaccines.Remove(vaccine);
