@@ -6,10 +6,15 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+<<<<<<< HEAD
 using UniversityofLouisvilleVaccine.DataContexts;
 using UniversityofLouisvilleVaccine.Models;
 
 
+=======
+using UniversityofLouisvilleVaccine.Models;
+
+>>>>>>> gh-pages
 namespace UniversityofLouisvilleVaccine.Controllers
 {
     [Authorize]
@@ -46,7 +51,11 @@ namespace UniversityofLouisvilleVaccine.Controllers
         }
 
         // GET: /Vaccine/Details/5
+<<<<<<< HEAD
         public ActionResult Details(int id)
+=======
+        public ActionResult Details(string id)
+>>>>>>> gh-pages
         {
             if (id == null)
             {
@@ -71,7 +80,11 @@ namespace UniversityofLouisvilleVaccine.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+<<<<<<< HEAD
         public ActionResult Create([Bind(Include="ID,vaccineID,vaccineName,dateReceived,CPT,ICD9Code,NDC,leadTime,lotNumber,numofDoses,salesPrice,expDate")] Vaccine vaccine)
+=======
+        public ActionResult Create([Bind(Include="vaccineID,vaccineName,dateReceived,CPT,ICD9Code,NDC,leadTime,lotNumber,numofDoses,salesPrice")] Vaccine vaccine)
+>>>>>>> gh-pages
         {
             if (ModelState.IsValid)
             {
@@ -84,7 +97,11 @@ namespace UniversityofLouisvilleVaccine.Controllers
         }
 
         // GET: /Vaccine/Edit/5
+<<<<<<< HEAD
         public ActionResult Edit(int id)
+=======
+        public ActionResult Edit(string id)
+>>>>>>> gh-pages
         {
             if (id == null)
             {
@@ -103,7 +120,11 @@ namespace UniversityofLouisvilleVaccine.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+<<<<<<< HEAD
         public ActionResult Edit([Bind(Include="ID,vaccineID,vaccineName,dateReceived,CPT,ICD9Code,NDC,leadTime,lotNumber,numofDoses,salesPrice,expDate")] Vaccine vaccine)
+=======
+        public ActionResult Edit([Bind(Include="vaccineID,vaccineName,dateReceived,CPT,ICD9Code,NDC,leadTime,lotNumber,numofDoses,salesPrice")] Vaccine vaccine)
+>>>>>>> gh-pages
         {
             if (ModelState.IsValid)
             {
@@ -115,7 +136,11 @@ namespace UniversityofLouisvilleVaccine.Controllers
         }
 
         // GET: /Vaccine/Delete/5
+<<<<<<< HEAD
         public ActionResult Delete(int id)
+=======
+        public ActionResult Delete(string id)
+>>>>>>> gh-pages
         {
             if (id == null)
             {
@@ -132,7 +157,11 @@ namespace UniversityofLouisvilleVaccine.Controllers
         // POST: /Vaccine/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+<<<<<<< HEAD
         public ActionResult DeleteConfirmed(int id)
+=======
+        public ActionResult DeleteConfirmed(string id)
+>>>>>>> gh-pages
         {
             Vaccine vaccine = db.Vaccines.Find(id);
             db.Vaccines.Remove(vaccine);

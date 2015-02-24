@@ -52,6 +52,7 @@ C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Micro
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Release\UniversityofLouisvilleVaccine.dll
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Release\UniversityofLouisvilleVaccine.pdb
+<<<<<<< HEAD
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Release\UniversityofLouisvilleVaccine.DataContexts.VaccineMigrations.InitialCreate.resources
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Release\UniversityofLouisvilleVaccine.DataContexts.VaccineNotificationMigrations.InitialCreate.resources
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Release\UniversityofLouisvilleVaccine.DataContexts.VaccineUseMigrations.InitialCreate.resources
@@ -59,3 +60,5 @@ C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Relea
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Release\UniversityofLouisvilleVaccine.csproj.GenerateResource.Cache
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Release\UniversityofLouisvilleVaccine.csprojResolveAssemblyReference.cache
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Release\UniversityofLouisvilleVaccine.DataContexts.IdentityMigrations.InitialCreate.resources
+=======
+>>>>>>> gh-pages

@@ -9,6 +9,7 @@ namespace UniversityofLouisvilleVaccine.Models
 {
     public class Vendor
     {
+<<<<<<< HEAD
         [Key]
         [Required]
         [Display(Name = "Vendor ID")]
@@ -38,6 +39,33 @@ namespace UniversityofLouisvilleVaccine.Models
         [Display(Name = "Address")]
         public string vendorAddress { get; set; }
 
+=======
+        [Display(Name = "Vendor ID:")]
+        public string vendorID { get; set; }
+
+        [Display(Name = "Vendor Name:")]
+        public string vendorName { get; set; }
+
+        [Display(Name = "Phone:")]
+        public string vendorPhone { get; set; }
+
+        [Display(Name = "Fax:")]
+        public string vendorFax { get; set; }
+
+        [Display(Name = "Email:")]
+        public string vendorEmail { get; set; }
+
+        [Display(Name = "Website:")]
+        public string vendorWebsite { get; set; }
+
+        [Display(Name = "Vendor Adddress:")]
+        public string vendorAddress { get; set; }
+   }
+
+    public class VendorDBContext : DbContext
+    {
+        public DbSet<Vendor> Vendors { get; set; }
+>>>>>>> gh-pages
     }
 
 }

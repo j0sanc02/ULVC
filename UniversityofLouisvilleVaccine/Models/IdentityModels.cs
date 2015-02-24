@@ -7,5 +7,15 @@ namespace UniversityofLouisvilleVaccine.Models
     {
     }
 
+<<<<<<< HEAD
 
+=======
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    {
+        public ApplicationDbContext()
+            : base("DefaultConnection")
+        {
+        }
+    }
+>>>>>>> gh-pages
 }

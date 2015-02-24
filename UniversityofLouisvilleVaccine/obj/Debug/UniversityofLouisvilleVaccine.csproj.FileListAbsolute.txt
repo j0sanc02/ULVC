@@ -57,7 +57,10 @@ C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\UniversityofLouisvilleV
 C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\UniversityofLouisvilleVaccine\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.csproj.GenerateResource.Cache
 C:\Users\jpapp_000\Documents\Visual Studio 2013\Projects\UniversityofLouisvilleVaccine\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.Migrations.New.resources
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> gh-pages
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.dll.config
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.dll
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.pdb
@@ -113,7 +116,10 @@ C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Micro
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.csprojResolveAssemblyReference.cache
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.dll
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.pdb
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> gh-pages
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.dll.config
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.dll
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\UniversityofLouisvilleVaccine.pdb
@@ -167,6 +173,7 @@ C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 <<<<<<< HEAD
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.Migrations.InitialCreate.resources
 C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.Migrations.New.resources
@@ -238,3 +245,7 @@ C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.DataContexts.VaccineMigrations.InitialCreate.resources
 C:\Users\jpapp_000\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.DataContexts.IdentityMigrations.InitialCreate.resources
 >>>>>>> origin/master
+=======
+C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.dll
+C:\Users\Tyler\Documents\GitHub\ULVC\UniversityofLouisvilleVaccine\obj\Debug\UniversityofLouisvilleVaccine.pdb
+>>>>>>> gh-pages

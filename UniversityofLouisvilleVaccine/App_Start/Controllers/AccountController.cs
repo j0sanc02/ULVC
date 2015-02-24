@@ -9,7 +9,10 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using UniversityofLouisvilleVaccine.Models;
+<<<<<<< HEAD
 using UniversityofLouisvilleVaccine.DataContexts;
+=======
+>>>>>>> gh-pages
 
 namespace UniversityofLouisvilleVaccine.Controllers
 {

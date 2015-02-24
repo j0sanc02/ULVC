@@ -589,6 +589,7 @@ ul.nostyle i {
   margin: -15px -15px 0 -15px;
 }
 #meet-team .team-member .team-info {
+<<<<<<< HEAD
   padding-bottom: 10px;
   border-bottom: 1px solid #dbdbdb;
   margin-bottom: 10px;
@@ -598,6 +599,17 @@ ul.nostyle i {
 }
 #meet-team .team-member:hover .social-icons > li > a {
   background: #45aed6;
+=======
+  padding-bottom: 0px;
+  border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 0px;
+}
+#meet-team .team-member:hover {
+
+}
+#meet-team .team-member:hover .social-icons > li > a {
+
+>>>>>>> gh-pages
 }
 #meet-team .social-icons {
   list-style: none;
@@ -935,5 +947,12 @@ ul.nostyle i {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+<<<<<<< HEAD
 
 
+=======
+#researchImage {
+    max-width: 314px;
+    max-height: 451px;
+}
+>>>>>>> gh-pages

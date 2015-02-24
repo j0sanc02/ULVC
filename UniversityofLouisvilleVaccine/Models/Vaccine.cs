@@ -1,12 +1,16 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+<<<<<<< HEAD
 using System.ComponentModel.DataAnnotations.Schema;
+=======
+>>>>>>> gh-pages
 using System.Data.Entity;
 
 namespace UniversityofLouisvilleVaccine.Models
 {
     public class Vaccine
     {
+<<<<<<< HEAD
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -14,6 +18,10 @@ namespace UniversityofLouisvilleVaccine.Models
         
         [Required]
         [RegularExpression(@"^\d+$", ErrorMessage = "Please enter proper contact details.")]
+=======
+        [Required]
+        [RegularExpression(@"^[A-Z]+[a-zA-Z''-'\s]*$")]
+>>>>>>> gh-pages
         [Display(Name = "Vaccine ID")]
         public string vaccineID { get; set; }
 
@@ -25,7 +33,11 @@ namespace UniversityofLouisvilleVaccine.Models
         [Required]
         [Display(Name = "Date Received")]
         [DataType(DataType.Date)]
+<<<<<<< HEAD
         [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
+=======
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+>>>>>>> gh-pages
         public DateTime dateReceived { get; set; }
 
         [Required]
@@ -56,6 +68,7 @@ namespace UniversityofLouisvilleVaccine.Models
         [Display(Name = "Cost")]
         public int salesPrice { get; set; }
 
+<<<<<<< HEAD
         [Required]
         [Display(Name = "Expiration Date")]
         [DataType(DataType.Date)]
@@ -65,5 +78,13 @@ namespace UniversityofLouisvilleVaccine.Models
     }
 
 
+=======
+    }
+
+    public class VaccineDBContext : DbContext
+    {
+        public DbSet<Vaccine> Vaccines { get; set; }
+    }
+>>>>>>> gh-pages
 
 }

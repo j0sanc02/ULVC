@@ -6,11 +6,19 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+<<<<<<< HEAD
 using UniversityofLouisvilleVaccine.DataContexts;
 using UniversityofLouisvilleVaccine.Models;
 
 namespace UniversityofLouisvilleVaccine.App_Start.Controllers
 {
+=======
+using UniversityofLouisvilleVaccine.Models;
+
+namespace UniversityofLouisvilleVaccine.Controllers
+{
+    [Authorize]
+>>>>>>> gh-pages
     public class VendorController : Controller
     {
         private VendorDBContext db = new VendorDBContext();
